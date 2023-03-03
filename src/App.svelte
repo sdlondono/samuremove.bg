@@ -9,11 +9,11 @@
 <Nav />
 <main class="grid grid-cols-1 max-w-xl m-auto w-full p-4 text-white">
   {#if $image.state === ImageState.READY}
-    <h1>
-      Hello 👋🏻, thank you very much for visiting my website, here you will be
-      able to change the brackground of any image that would you like to modify,
-      by the way, you must to add a <strong>PNG</strong>
-      image.
+    <h1 class="text-xl">
+      Hi there 👋🏻, welcome to my website! I'm excited to offer you a fun and
+      easy way to modify your images. With just a few clicks, you can change the
+      background of any <strong>PNG</strong> image to a color randomly. It's a simple
+      and creative way to make your images stand out.
     </h1>
     <Dropzone />
   {/if}
