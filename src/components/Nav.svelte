@@ -8,7 +8,7 @@
 
 <nav>
   <ul
-    class="flex flex-col p-4 mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium justify-center items-center"
+    class="flex flex-col p-4 mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-md md:font-medium justify-center items-center"
   >
     {#each items as item}
       <li>

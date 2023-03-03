@@ -9,7 +9,7 @@
 <Nav />
 <main class="grid grid-cols-1 max-w-xl m-auto w-full p-4 text-white">
   {#if $image.state === ImageState.READY}
-    <h1 class="text-xl">
+    <h1 class="text-md">
       Hi there 👋🏻, welcome to my website! I'm excited to offer you a fun and
       easy way to modify your images. With just a few clicks, you can change the
       background of any <strong>PNG</strong> image to a color randomly. It's a simple
